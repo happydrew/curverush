@@ -24,6 +24,7 @@ export default {
   "curveball": {
     type: 'page',
     title: 'Curveball',
+    display: 'hidden',
     theme: {
       layout: 'raw'
     }
@@ -31,6 +32,7 @@ export default {
   "curve-ball-3d": {
     type: 'page',
     title: 'Curveball 3D',
+    display: 'hidden',
     theme: {
       layout: 'raw'
     }
@@ -38,6 +40,7 @@ export default {
   "pencil-rush": {
     type: 'page',
     title: 'Pencil Rush',
+    display: 'hidden',
     theme: {
       layout: 'raw'
     }
@@ -45,41 +48,47 @@ export default {
   "bus-rush": {
     type: 'page',
     title: 'Taxi Rush',
+    display: 'hidden',
     theme: {
       layout: 'raw'
     }
   },
-  "rhino-rush-stampede":{
+  "rhino-rush-stampede": {
     type: 'page',
     title: 'Rhino Rush Stampede',
+    display: 'hidden',
     theme: {
       layout: 'raw'
     }
   },
-  "jet-rush":{
+  "jet-rush": {
     type: 'page',
     title: 'Jet Rush',
+    display: 'hidden',
     theme: {
       layout: 'raw'
     }
   },
-  "car-rush":{
+  "car-rush": {
     type: 'page',
     title: 'Car Rush',
+    display: 'hidden',
     theme: {
       layout: 'raw'
     }
   },
-  "cluster-rush":{
+  "cluster-rush": {
     type: 'page',
     title: 'Cluster Rush',
+    display: 'hidden',
     theme: {
       layout: 'raw'
     }
   },
-  "tunnel-rush":{
+  "tunnel-rush": {
     type: 'page',
     title: 'Tunnel Rush',
+    display: 'hidden',
     theme: {
       layout: 'raw'
     }
