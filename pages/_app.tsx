@@ -17,16 +17,16 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
     </Head>
 
     {/* Google tag (gtag.js) */}
-<Script async src="https://www.googletagmanager.com/gtag/js?id=G-EJLZESTEXY"></Script>
-<Script>
-  {`
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <Script async src="https://www.googletagmanager.com/gtag/js?id=G-EJLZESTEXY"></Script>
+    <Script>
+      {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-EJLZESTEXY');
-  `}
-</Script>
+      gtag('config', 'G-EJLZESTEXY');
+      `}
+    </Script>
 
     <Component {...pageProps} />
   </>)
