@@ -16,17 +16,17 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     </Head>
 
-    {/* Google tag (gtag.js)  */}
-    <Script async src="https://www.googletagmanager.com/gtag/js?id=G-MSSVTCG2PL"></Script>
-    <Script>
-      {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+<Script async src="https://www.googletagmanager.com/gtag/js?id=G-EJLZESTEXY"></Script>
+<Script>
+  {`
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      gtag('config', 'G-MSSVTCG2PL');
-      `}
-    </Script>
+  gtag('config', 'G-EJLZESTEXY');
+  `}
+</Script>
 
     <Component {...pageProps} />
   </>)
