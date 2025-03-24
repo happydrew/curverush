@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }: AppProps): ReactElement {
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     </Head>
 
-    <!-- Google tag (gtag.js) -->
+    {/* Google tag (gtag.js) */}
 <Script async src="https://www.googletagmanager.com/gtag/js?id=G-EJLZESTEXY"></Script>
 <Script>
   {`
