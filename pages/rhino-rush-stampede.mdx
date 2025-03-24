@@ -1,24 +1,29 @@
 ---
-title: Curve Rush
-description: Curve Rush is an arcade-style game that challenges your speed, precision, and strategy as you navigate rolling balls through endless desert landscapes.
-image: /assets/images/games/curve-rush.webp
+title: Rhino Rush Stampede
+description: Rhino Rush Stampede is an action-packed endless runner where you control a fast blue rhino, collect fruit, and unlock epic upgrades in a vibrant jungle adventure.
+image: /assets/images/games/rhino-rush-stampede.webp
 date: 2025-02-15
 ---
 
 import GamePage from '@components/games/GamePage';
-import Article from '@components/games/Article_Curve_Rush';
+import Article from '@components/games/Article_Rhino_Rush_Stampede';
   
 <GamePage 
     main_game={{
-    name: "Curve Rush",
-    iframe_url: "https://suikagame.io/curve-rush.embed",
+    name: "Rhino Rush Stampede",
+    iframe_url: "https://www.crazygames.com/embed/rhino-rush-stampede",
     votes: 4328,
     score: 4.7
-    }} 
+}} 
 
     Article={Article}
-    
+
     relate_games={[
+    {
+    name: "Curve Rush",
+    href: "/curve-rush",
+    image: "/assets/images/games/curve-rush.webp",
+    },
     {
     name: "Bus Rush",
     href: "/bus-rush",
@@ -53,11 +58,6 @@ import Article from '@components/games/Article_Curve_Rush';
     name: "Pencil Rush",
     href: "/pencil-rush",
     image: "/assets/images/games/pencil-rush.webp",
-    },
-    {
-    name: "Rhino Rush Stampede",
-    href: "/rhino-rush-stampede",
-    image: "/assets/images/games/rhino-rush-stampede.webp",
     },
     {
     name: "Tunnel Rush",
