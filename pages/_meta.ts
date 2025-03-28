@@ -93,6 +93,22 @@ export default {
       layout: 'raw'
     }
   },
+  "kingdom-rush":{
+    type: 'page',
+    title: 'Kingdom Rush',
+    display: 'hidden',
+    theme: {
+      layout: 'raw'
+    }
+  },
+  "survival-rush":{
+    type: 'page',
+    title: 'Survival Rush',
+    display: 'hidden',
+    theme: {
+      layout: 'raw'
+    }
+  },
 
   // docs: {
   //   type: 'page',
